@@ -45,11 +45,11 @@ response_test = g_test[,"grad_r"]
 
 # 
 
-This is an ecological analysis of 20,000 high schools in the united states to understand whether high rates of chronic absenteeism predict low graduation rates.
+This is an ecological analysis of 20,000 high schools in the United States to understand whether high rates of chronic absenteeism predict low graduation rates.
 
 # Data
 
-These data come from ....
+This data comes from ....
 
 <https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html#acgr>
 <https://ocrdata.ed.gov/DataFileUsersManual>
@@ -57,13 +57,18 @@ These data come from ....
 
 # Measures
 
-- Graduation rate
-  - Number of graduating students divided by
-  - The number of students who started (9th grade?) net of in/outmigration
+- Graduation rate (Adjusted Cohort Graduation Rate)
 
-- Absenteeism rate
-  - ? proportion of students who have missed (5? 15? days)
-  - 
+  - Number of graduating students divided by
+  - The number of students who started 9th grade net of in/out migration
+  - Percentage of students that graduate in four years with a regular high school diploma
+  - https://nces.ed.gov/fastfacts/display.asp?id=805
+ 
+
+- Chronic Absenteeism rate
+  - Students that miss 15 days or more in a school year
+  - All absences of more than 50% of the day count, sickness, vacation, court appearance, susupension, etc.
+  - https://ocrdata.ed.gov/Downloads/Master-List-of-CRDC-Definitions.pdf
 
 - Covariates
 
